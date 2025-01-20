@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Upload Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Video Upload Platform</h1>
+    </header>
+    <div class="container">
+        <h2>Upload din video</h2>
+        <form id="uploadForm">
+            <input type="file" id="videoInput" accept="video/*" required>
+            <br>
+            <button type="submit">Upload</button>
+        </form>
+        <div class="video-list" id="videoList">
+            <h3>Uploaded videoer:</h3>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
